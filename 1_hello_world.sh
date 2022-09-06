@@ -10,6 +10,7 @@ One can save a file and quit vim / Vi by pressing Esc key, type :x and hit Enter
 Execute
 '
 # single line comment
+# debugging = bash -xv name.sh
  --------------------------------------------------------------------------------------
  
  
