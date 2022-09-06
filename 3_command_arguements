@@ -1,0 +1,55 @@
+ vim commandARG.sh
+---
+
+#!/bin/bash
+ 
+echo "Total Arguments:" $#
+echo "All Arguments values:" $@
+ 
+echo "First->"  $1
+echo "Second->" $2
+
+args=("$@")
+echo "First->"  ${args[0]} 
+echo "Second->" ${args[1]}
+
+---
+bash commandARG.sh Hello om
+OR
+chmod +x ./commandARG.sh
+./commandARG.sh Hello om
+
+
+
+
+
+
+: '
+Special Variable
+---
+$1 to $n	$1    
+is the first arguments, $2 is second argument until $n n’th arguments.
+From 10’th argument, you must need to inclose them in braces like ${10}, ${11} and so on
+
+$0	
+The name of script itself
+
+$$	
+ Process id of current shell
+
+$*	
+ Values of all the arguments. All agruments are double quoted
+
+$#	
+ Total number of arguments passed to script
+
+$@	
+ Values of all the arguments
+
+$?	
+ Exit status id of last command
+
+$!	
+ Process id of last command
+'
+
