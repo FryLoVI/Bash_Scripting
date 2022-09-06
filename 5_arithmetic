@@ -5,11 +5,11 @@ vim arithmetic.sh
 read -p "Enter numeric value: " n1
 read -p "Enter numeric value: " n2
  
-echo "Addition of $n1 + $n2 is       = " $((n1+n2))
-echo "Subtraction of $n1 - $n2 is    = " $((n1-n2))
-echo "Division of $n1 / $n2 is       = " $((n1/n2))
-echo "Multiplication of $n1 * $n2 is = " $((n1*n2))
-echo "Modulus of $n1 % $n2 is        = " $((n1%n2))
+echo "Addition = " $((n1+n2))
+echo "Subtraction = " $((n1-n2))
+echo "Division of = " $((n1/n2))
+echo "Multiplication = " $((n1*n2))
+echo "Modulus = " $((n1%n2))
 
 ## Post-increment example 
 var=6
