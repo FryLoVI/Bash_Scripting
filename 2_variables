@@ -1,0 +1,15 @@
+ ~/home/Documents
+ vim name.sh
+---
+#!/bin/bash
+
+nameIs="WVI"
+echo $nameIs
+
+timeNow="Oct.29"
+echo $timeNow
+---
+bash name.sh
+OR
+chmod +x ./name.sh
+./name.sh
