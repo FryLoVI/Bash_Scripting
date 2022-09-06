@@ -3,7 +3,7 @@
 
 #!/bin/bash
  
-echo "Your name's?
+echo "Name's?
 read myName
 echo "Hello, $myName
 
