@@ -20,4 +20,7 @@ echo "Hello World"
 
 ---
 bash hello_world.sh
+OR
+chmod +x ./hello_world.sh
+./hello_world.sh
 --------------------------------------------------------------------------------------
