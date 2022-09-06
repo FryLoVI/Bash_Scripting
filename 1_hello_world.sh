@@ -28,3 +28,31 @@ OR
 chmod +x ./hello_world.sh
 ./hello_world.sh
 --------------------------------------------------------------------------------------
+: '
+Special Variable
+---
+$1 to $n	$1    
+is the first arguments, $2 is second argument until $n n’th arguments.
+From 10’th argument, you must need to inclose them in braces like ${10}, ${11} and so on
+
+$0	
+The name of script itself
+
+$$	
+ Process id of current shell
+
+$*	
+ Values of all the arguments. All agruments are double quoted
+
+$#	
+ Total number of arguments passed to script
+
+$@	
+ Values of all the arguments
+
+$?	
+ Exit status id of last command
+
+$!	
+ Process id of last command
+'
