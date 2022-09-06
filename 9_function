@@ -1,0 +1,24 @@
+: ' 
+funcationName(){    
+  // scope of function
+}
+
+functionName  //calling of function
+'
+
+vim function.sh
+
+---
+#!/bin/bash
+
+helloAll(){
+    echo "Hello World!";
+}
+
+helloAll
+---
+
+bash function.sh 
+OR
+chmod +x ./function.sh
+./function.sh 
