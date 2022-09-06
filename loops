@@ -1,0 +1,49 @@
+: ' 
+----
+FOR LOOP
+----
+for VARIABLE in PARAM1 PARAM2 PARAM3
+do
+  //for-loop statements
+done 
+
+while [condition]
+do
+  //programme to execute
+done
+
+'
+
+wim loops.sh
+---
+#!/bin/bash
+
+for ((i=1; i<=10; i++))
+do
+  echo "$i"
+done
+
+# FOR FILE
+for fname in *
+do
+  ls -l $fname
+done
+
+num=1
+while((num <= 5))
+do
+   echo $num
+   let num++
+done
+
+# WHILE FILE
+while read myvar
+do
+   echo $myvar
+done < /tmp/filename.txt
+
+---
+bash loops.sh 
+OR
+chmod +x ./loops.sh
+./loops.sh 
