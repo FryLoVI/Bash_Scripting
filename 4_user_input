@@ -7,10 +7,10 @@ echo "Name's?"
 read myName
 echo "Hello" $myName
 
-read -p "Enter your username: " myname
-read -sp "Enter your password: " mypassword
+read -p "Name: " myName
+read -sp "Password: " myPassword
 
-echo -e "\nYour username is $myname and Password is $mypassword"
+echo -e "\nYour username is $myName and Password is $myPassword"
 
 ---
 bash userInput.sh 
