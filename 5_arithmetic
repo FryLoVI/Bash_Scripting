@@ -18,6 +18,15 @@ echo $((var++))  ## First print 6 then increase value by 1
 ## Pre-increment example
 var=6
 echo $((++var))  ## First increase value by 1 then print 7
+
+: '
+((n1 == n2))    ## n1 is equals to n2
+((n1 != n2))    ## n1 is not equals to n2
+((n1 > n2))     ## n1 is greater than n2
+((n1 >= n2))    ## n1 is greater or equals to n2
+((n1 < n2))     ## n1 is smaller than n2
+((n1 <= n2))    ## n1 is smaller than or equals to n2
+'
 ---
 bash arithmetic.sh 
 OR
