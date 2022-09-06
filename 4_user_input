@@ -3,9 +3,9 @@
 
 #!/bin/bash
  
-echo "Name's?
+echo "Name's?"
 read myName
-echo "Hello, $myName
+echo "Hello" $myName
 
 ---
 bash userInput.sh 
