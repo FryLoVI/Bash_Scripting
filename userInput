@@ -1,0 +1,14 @@
+ vim userInput.sh
+---
+
+#!/bin/bash
+ 
+echo "Your name's?
+read myName
+echo "Hello, $myName
+
+---
+bash userInput.sh 
+OR
+chmod +x ./userInput.sh
+./userInput.sh 
