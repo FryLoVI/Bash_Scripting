@@ -30,5 +30,5 @@ fi
 ---
 bash if.sh 
 OR
-chmod +x ./if.sh
+chmod u+x ./if.sh
 ./if.sh 
