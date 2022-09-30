@@ -20,5 +20,5 @@ helloAll
 
 bash function.sh 
 OR
-chmod +x ./function.sh
+chmod u+x ./function.sh
 ./function.sh 
