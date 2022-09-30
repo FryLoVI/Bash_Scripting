@@ -16,7 +16,7 @@ echo "Second->" ${args[1]}
 ---
 bash commandARG.sh Hello om
 OR
-chmod +x ./commandARG.sh
+chmod u+x ./commandARG.sh
 ./commandARG.sh Hello om
 
 
