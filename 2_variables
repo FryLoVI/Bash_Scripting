@@ -11,5 +11,5 @@ echo $timeNow
 ---
 bash name.sh
 OR
-chmod +x ./name.sh
+chmod u+x ./name.sh
 ./name.sh
