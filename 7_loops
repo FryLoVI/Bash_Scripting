@@ -45,5 +45,5 @@ done < /tmp/filename.txt
 ---
 bash loops.sh 
 OR
-chmod +x ./loops.sh
+chmod u+x ./loops.sh
 ./loops.sh 
