@@ -15,5 +15,5 @@ echo -e "\nYour username is $myName and Password is $myPassword"
 ---
 bash userInput.sh 
 OR
-chmod +x ./userInput.sh
+chmod u+x ./userInput.sh
 ./userInput.sh 
