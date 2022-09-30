@@ -30,7 +30,7 @@ echo $((++var))  ## First increase value by 1 then print 7
 ---
 bash arithmetic.sh 
 OR
-chmod +x ./arithmetic.sh
+chmod u+x ./arithmetic.sh
 ./arithmetic.sh 
 
 
